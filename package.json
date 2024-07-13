@@ -1,12 +1,14 @@
 {
-  "name": "project",
+  "name": "car-dealership-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "Joaquin P. Langone",
   "scripts": {
+    "dev": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "car",
+    "dealership"
+  ],
   "license": "ISC"
 }
