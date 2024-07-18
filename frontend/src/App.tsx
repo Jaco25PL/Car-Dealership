@@ -1,33 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+const cars = [
+  {
+    title: 'Car 1',
+    price: '$20,000',
+    description: 'A great car with excellent features.',
+  },
+  {
+    title: 'Car 2',
+    price: '$25,000',
+    description: 'A stylish car with modern design.',
+  },
+  {
+    title: 'Car 3',
+    price: '$30,000',
+    description: 'A reliable car with great performance.',
+  }
+]
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+     <div className="App">
+      <header>
+        <h1>Car Dealership</h1>
+      </header>
+      <div className="car-list">
+        {cars.map((car, index) => (
+          <div key={index} className="car-card">
+            <h2>{car.title}</h2>
+            <p>{car.price}</p>
+            <p>{car.description}</p>
+          </div>
+        ))}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </div>
     </>
   )
 }
