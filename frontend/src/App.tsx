@@ -26,7 +26,7 @@ function App() {
       <header>
         <h1>Car Dealership</h1>
       </header>
-      <div className="car-list">
+      <div className="car-list border-2 border-solid border-red-400">
         {cars.map((car, index) => (
           <div key={index} className="car-card">
             <h2>{car.title}</h2>
