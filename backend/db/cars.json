@@ -1,5 +1,5 @@
 [
-    {
+    { "id": 1,
       "chasis": "sedan",
       "brand": "Mercedes",
       "model": "C-Class",
@@ -21,7 +21,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 2,
       "chasis": "SUV",
       "brand": "BMW",
       "model": "X5",
@@ -43,7 +43,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 3,
       "chasis": "coupe",
       "brand": "Audi",
       "model": "A5",
@@ -65,7 +65,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 4,
       "chasis": "SUV",
       "brand": "Volvo",
       "model": "XC90",
@@ -87,7 +87,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 5,
       "chasis": "pickup",
       "brand": "Ford",
       "model": "F-150",
@@ -109,7 +109,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 6,
       "chasis": "sedan",
       "brand": "Toyota",
       "model": "Camry",
@@ -131,7 +131,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 7,
       "chasis": "SUV",
       "brand": "Nissan",
       "model": "Rogue",
@@ -153,7 +153,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 8,
       "chasis": "sedan",
       "brand": "Lexus",
       "model": "ES",
@@ -175,7 +175,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 9,
       "chasis": "coupe",
       "brand": "Chevrolet",
       "model": "Camaro",
@@ -197,7 +197,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 10,
       "chasis": "sedan",
       "brand": "Cadillac",
       "model": "CT5",
@@ -219,7 +219,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 11,
       "chasis": "sedan",
       "brand": "Honda",
       "model": "Accord",
@@ -241,7 +241,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 12,
       "chasis": "SUV",
       "brand": "Mitsubishi",
       "model": "Outlander",
@@ -263,7 +263,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 13,
       "chasis": "SUV",
       "brand": "Mercedes",
       "model": "GLC",
@@ -285,7 +285,7 @@
         "transmission": "Manual"
       }
     },
-    {
+    { "id": 14,
       "chasis": "sedan",
       "brand": "BMW",
       "model": "3 Series",
@@ -307,7 +307,7 @@
         "transmission": "Manual"
       }
     },
-    {
+    { "id": 15,
       "chasis": "coupe",
       "brand": "Audi",
       "model": "A5",
@@ -329,7 +329,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 16,
       "chasis": "SUV",
       "brand": "Volvo",
       "model": "XC60",
@@ -351,7 +351,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 17,
       "chasis": "pickup",
       "brand": "Ford",
       "model": "Ranger",
@@ -373,7 +373,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 18,
       "chasis": "sedan",
       "brand": "Toyota",
       "model": "Camry",
@@ -395,7 +395,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 19,
       "chasis": "SUV",
       "brand": "Nissan",
       "model": "Rogue",
@@ -417,7 +417,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 20,
       "chasis": "sedan",
       "brand": "Lexus",
       "model": "ES",
@@ -439,7 +439,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 21,
       "chasis": "coupe",
       "brand": "Chevrolet",
       "model": "Camaro",
@@ -461,7 +461,7 @@
         "transmission": "Manual"
       }
     },
-    {
+    { "id": 22,
       "chasis": "sedan",
       "brand": "Cadillac",
       "model": "CTS",
@@ -483,7 +483,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 23,
       "chasis": "sedan",
       "brand": "Honda",
       "model": "Civic",
@@ -505,7 +505,7 @@
         "transmission": "Manual"
       }
     },
-    {
+    { "id": 24,
       "chasis": "SUV",
       "brand": "Mitsubishi",
       "model": "Outlander",
@@ -527,7 +527,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 25,
       "chasis": "sedan",
       "brand": "Mercedes",
       "model": "E-Class",
@@ -549,7 +549,7 @@
         "transmission": "Manual"
       }
     },
-    {
+    { "id": 26,
       "chasis": "SUV",
       "brand": "BMW",
       "model": "X3",
@@ -571,7 +571,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 27,
       "chasis": "coupe",
       "brand": "Audi",
       "model": "A5",
@@ -593,7 +593,7 @@
         "transmission": "Manual"
       }
     },
-    {
+    { "id": 28,
       "chasis": "sedan",
       "brand": "Toyota",
       "model": "Corolla",
@@ -615,7 +615,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 29,
       "chasis": "sedan",
       "brand": "Nissan",
       "model": "Altima",
@@ -637,7 +637,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 30,
       "chasis": "sedan",
       "brand": "Honda",
       "model": "Accord",
@@ -659,7 +659,7 @@
         "transmission": "Manual"
       }
     },
-    {
+    { "id": 31,
       "chasis": "SUV",
       "brand": "Ford",
       "model": "Escape",
@@ -681,7 +681,7 @@
         "transmission": "Automatic"
       }
     },
-    {
+    { "id": 32,
       "chasis": "sedan",
       "brand": "Chevrolet",
       "model": "Malibu",
@@ -703,119 +703,116 @@
         "transmission": "Automatic"
       }
     },
-    [
-        {
-          "chasis": "sedan",
-          "brand": "BMW",
-          "model": "M3 Competition",
-          "year": 2018,
-          "price": 60000,
-          "color": ["Black", "White", "Blue"],
-          "condition": "used",
-          "datasheet": {
-            "hp": 444,
-            "engine": "3.0L Inline-6 Twin-Turbo",
-            "fuel": "gasoline",
-            "consumption": "10.0 L/100 km",
-            "torque": "406 lb-ft",
-            "max_speed": "250 km/h",
-            "weight": "1585 kg",
-            "kilometers": 50000,
-            "features": ["Adaptive M Suspension", "Harman Kardon Sound System", "Carbon Fiber Roof"],
-            "drivetrain": "RWD",
-            "transmission": "Manual"
-          }
-        },
-        {
-          "chasis": "sedan",
-          "brand": "BMW",
-          "model": "M5",
-          "year": 2016,
-          "price": 55000,
-          "color": ["Black", "White", "Gray"],
-          "condition": "used",
-          "datasheet": {
-            "hp": 560,
-            "engine": "4.4L V8 Twin-Turbo",
-            "fuel": "gasoline",
-            "consumption": "11.1 L/100 km",
-            "torque": "502 lb-ft",
-            "max_speed": "250 km/h",
-            "weight": "1945 kg",
-            "kilometers": 60000,
-            "features": ["M Dynamic Mode", "Bang & Olufsen Sound System", "Sunroof"],
-            "drivetrain": "RWD",
-            "transmission": "Manual"
-          }
-        },
-        {
-          "chasis": "coupe",
-          "brand": "Audi",
-          "model": "RS5",
-          "year": 2017,
-          "price": 57000,
-          "color": ["Black", "White", "Red"],
-          "condition": "used",
-          "datasheet": {
-            "hp": 450,
-            "engine": "2.9L V6 Twin-Turbo",
-            "fuel": "gasoline",
-            "consumption": "9.2 L/100 km",
-            "torque": "443 lb-ft",
-            "max_speed": "280 km/h",
-            "weight": "1715 kg",
-            "kilometers": 45000,
-            "features": ["Quattro AWD", "Virtual Cockpit", "Sport Exhaust System"],
-            "drivetrain": "AWD",
-            "transmission": "Manual"
-          }
-        },
-        {
-          "chasis": "coupe",
-          "brand": "Mercedes",
-          "model": "AMG C63 S",
-          "year": 2018,
-          "price": 62000,
-          "color": ["Black", "White", "Gray"],
-          "condition": "used",
-          "datasheet": {
-            "hp": 503,
-            "engine": "4.0L V8 Twin-Turbo",
-            "fuel": "gasoline",
-            "consumption": "10.4 L/100 km",
-            "torque": "516 lb-ft",
-            "max_speed": "290 km/h",
-            "weight": "1730 kg",
-            "kilometers": 40000,
-            "features": ["AMG Ride Control", "Burmester Sound System", "Performance Exhaust"],
-            "drivetrain": "RWD",
-            "transmission": "Manual"
-          }
-        },
-        {
-          "chasis": "sedan",
-          "brand": "Porsche",
-          "model": "Panamera GTS",
-          "year": 2015,
-          "price": 65000,
-          "color": ["Black", "White", "Red"],
-          "condition": "used",
-          "datasheet": {
-            "hp": 440,
-            "engine": "4.8L V8",
-            "fuel": "gasoline",
-            "consumption": "11.5 L/100 km",
-            "torque": "384 lb-ft",
-            "max_speed": "288 km/h",
-            "weight": "1920 kg",
-            "kilometers": 70000,
-            "features": ["Adaptive Air Suspension", "Bose Surround Sound", "Sport Chrono Package"],
-            "drivetrain": "AWD",
-            "transmission": "Automatic"
-          }
-        }
-      ]
-      
+    { "id": 33,
+      "chasis": "sedan",
+      "brand": "BMW",
+      "model": "M3 Competition",
+      "year": 2018,
+      "price": 60000,
+      "color": ["Black", "White", "Blue"],
+      "condition": "used",
+      "datasheet": {
+        "hp": 444,
+        "engine": "3.0L Inline-6 Twin-Turbo",
+        "fuel": "gasoline",
+        "consumption": "10.0 L/100 km",
+        "torque": "406 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "1585 kg",
+        "kilometers": 50000,
+        "features": ["Adaptive M Suspension", "Harman Kardon Sound System", "Carbon Fiber Roof"],
+        "drivetrain": "RWD",
+        "transmission": "Manual"
+      }
+    },
+    { "id": 34,
+      "chasis": "sedan",
+      "brand": "BMW",
+      "model": "M5",
+      "year": 2016,
+      "price": 55000,
+      "color": ["Black", "White", "Gray"],
+      "condition": "used",
+      "datasheet": {
+        "hp": 560,
+        "engine": "4.4L V8 Twin-Turbo",
+        "fuel": "gasoline",
+        "consumption": "11.1 L/100 km",
+        "torque": "502 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "1945 kg",
+        "kilometers": 60000,
+        "features": ["M Dynamic Mode", "Bang & Olufsen Sound System", "Sunroof"],
+        "drivetrain": "RWD",
+        "transmission": "Manual"
+      }
+    },
+    { "id": 35,
+      "chasis": "coupe",
+      "brand": "Audi",
+      "model": "RS5",
+      "year": 2017,
+      "price": 57000,
+      "color": ["Black", "White", "Red"],
+      "condition": "used",
+      "datasheet": {
+        "hp": 450,
+        "engine": "2.9L V6 Twin-Turbo",
+        "fuel": "gasoline",
+        "consumption": "9.2 L/100 km",
+        "torque": "443 lb-ft",
+        "max_speed": "280 km/h",
+        "weight": "1715 kg",
+        "kilometers": 45000,
+        "features": ["Quattro AWD", "Virtual Cockpit", "Sport Exhaust System"],
+        "drivetrain": "AWD",
+        "transmission": "Manual"
+      }
+    },
+    { "id": 36,
+      "chasis": "coupe",
+      "brand": "Mercedes",
+      "model": "AMG C63 S",
+      "year": 2018,
+      "price": 62000,
+      "color": ["Black", "White", "Gray"],
+      "condition": "used",
+      "datasheet": {
+        "hp": 503,
+        "engine": "4.0L V8 Twin-Turbo",
+        "fuel": "gasoline",
+        "consumption": "10.4 L/100 km",
+        "torque": "516 lb-ft",
+        "max_speed": "290 km/h",
+        "weight": "1730 kg",
+        "kilometers": 40000,
+        "features": ["AMG Ride Control", "Burmester Sound System", "Performance Exhaust"],
+        "drivetrain": "RWD",
+        "transmission": "Manual"
+      }
+    },
+    { "id": 37,
+      "chasis": "sedan",
+      "brand": "Porsche",
+      "model": "Panamera GTS",
+      "year": 2015,
+      "price": 65000,
+      "color": ["Black", "White", "Red"],
+      "condition": "used",
+      "datasheet": {
+        "hp": 440,
+        "engine": "4.8L V8",
+        "fuel": "gasoline",
+        "consumption": "11.5 L/100 km",
+        "torque": "384 lb-ft",
+        "max_speed": "288 km/h",
+        "weight": "1920 kg",
+        "kilometers": 70000,
+        "features": ["Adaptive Air Suspension", "Bose Surround Sound", "Sport Chrono Package"],
+        "drivetrain": "AWD",
+        "transmission": "Automatic"
+      }
+    }      
     
   ]
   
