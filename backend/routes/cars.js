@@ -8,6 +8,7 @@ const carsFilePath = path.join(__dirname, '../data/cars.json')
 
 // Zod schema for car validation
 const carSchema = z.object({
+  id: z.number().nonnegative(),
   chasis: z.enum(['pickup', 'sedan', 'coupe', 'suv']),
   brand: z.string(),
   model: z.string(),
@@ -64,8 +65,8 @@ router.get('/filter', (req, res) => {
 // Create a new car
 router.post('/', (req, res) => {
   try {
-    const newCar = carSchema.parse(req.body)
     const cars = readCarsData()
+    const newCar = carSchema.parse({ ...req.body, id: cars.length + 1})
     cars.push(newCar)
     writeCarsData(cars)
     res.status(201).json(newCar)
@@ -75,17 +76,18 @@ router.post('/', (req, res) => {
 })
 
 // Update a car by index
-router.put('/:index', (req, res) => {
+router.put('/:id', (req, res) => {
   try {
-    const { index } = req.params
+    const { id } = req.params
     const updatedCar = carSchema.parse(req.body)
     const cars = readCarsData()
+    const carIndex = cars.findIndex(car => car.id === parseInt(id))
 
-    if (index >= cars.length) {
+    if (carIndex === -1) {
       return res.status(404).json({ error: 'Car not found' })
     }
 
-    cars[index] = updatedCar
+    cars[carIndex] = { ...updatedCar, id: parseInt(id) } // Ensire the ID is not changed
     writeCarsData(cars)
     res.json(updatedCar)
   } catch (e) {
@@ -94,15 +96,16 @@ router.put('/:index', (req, res) => {
 })
 
 // Delete a car by index
-router.delete('/:index', (req, res) => {
-  const { index } = req.params
+router.delete('/:id', (req, res) => {
+  const { id } = req.params
   const cars = readCarsData()
+  const carIndex = cars.findIndex( car => car.id === parseInt(id))
 
-  if (index >= cars.length) {
+  if (carIndex === -1) {
     return res.status(404).json({ error: 'Car not found' })
   }
 
-  const deletedCar = cars.splice(index, 1)
+  const deletedCar = cars.splice(carIndex, 1)
   writeCarsData(cars)
   res.json(deletedCar)
 })
