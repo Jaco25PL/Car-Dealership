@@ -1,9 +1,9 @@
-const express = require('express')
+const express = require('express') // intit express
 const bodyParser = require('body-parser')
 const carsRoutes = require('./routes/cars')
 
 const app = express()
-const PORT = 3000
+const PORT = 3456
 
 app.use(bodyParser.json())
 app.use('/cars', carsRoutes)

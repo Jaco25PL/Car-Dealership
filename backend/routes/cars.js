@@ -4,7 +4,7 @@ const path = require('path')
 const { z } = require('zod')
 
 const router = express.Router()
-const carsFilePath = path.join(__dirname, '../data/cars.json')
+const carsFilePath = path.join(__dirname, '../data/cars.json') // we use the json library for validation
 
 // Zod schema for car validation
 const carSchema = z.object({
@@ -42,7 +42,7 @@ const writeCarsData = (data) => {
 }
 
 // Get all cars
-router.get('/', (req, res) => {
+router.get('/cars', (req, res) => {
   const cars = readCarsData()
   res.json(cars)
 })
