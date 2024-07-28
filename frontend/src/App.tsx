@@ -1,5 +1,7 @@
 import './App.css'
 import { useState } from 'react'
+import { Header } from './components/Header';
+import { Navigation } from './components/Navigation';
 
 const cars = {
   id: 1,
@@ -42,14 +44,10 @@ function App() {
 
     <div className="min-h-screen p-4">
     {/* Navigation */}
-    <nav className=" p-4">
-      <h1 className="text-xl">Car Dealership</h1>
-    </nav>
+      <Navigation/>
 
     {/* Header */}
-    <header className=" p-4 mt-4">
-      <h2 className="text-2xl">Welcome to Our Car Dealership</h2>
-    </header>
+      <Header/>
 
     {/* Car Display */}
     <div className="bg-gray-700 shadow-md rounded p-4 mt-4 max-w-md mx-auto">
