@@ -2,8 +2,6 @@ import { useState, useEffect } from "react"
 import { Car } from "../types/cars"
 // import cars from "../../public/mock/cars.json"
 
-
-
 export function Cars_Card () {
 
     const [cars, setCars] = useState<Car[]>([])
