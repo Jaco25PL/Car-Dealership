@@ -1,80 +1,10 @@
 import { useState, useEffect } from "react"
+import { Car } from "../types/cars"
 // import cars from "../../public/mock/cars.json"
 
-interface Datasheet {
-    hp: number
-    engine: string
-    fuel: string
-    consumption: string
-    torque: string
-    max_speed: string
-    weight: string
-    kilometers: number
-    features: string[]
-    drivetrain: string
-    transmission: string
-  }
-  
-  interface SellerInfo {
-    name: string
-    contact: string
-    address: string
-  }
-  
-  interface Car {
-    id: number
-    chasis: string
-    brand: string
-    model: string
-    year: number
-    price: number
-    color: string[]
-    condition: string
-    datasheet: Datasheet
-    license_plate: string
-    date_added: string
-    photos: string[]
-    seller_info: SellerInfo
-    warranty_info: string
-  }
-
-// const cars = {
-//     id: 1,
-//     chasis: 'sedan',
-//     brand: 'Toyota',
-//     model: 'Camry',
-//     year: 2024,
-//     price: 30000,
-//     color: ['Black', 'White', 'Silver', 'Blue'],
-//     condition: 'brand new',
-//     datasheet: {
-//       hp: 203,
-//       engine: '2.5L Inline-4',
-//       fuel: 'gasoline',
-//       consumption: '8.2 L/100 km',
-//       torque: '184 lb-ft',
-//       max_speed: '210 km/h',
-//       weight: '1475 kg',
-//       kilometers: 0,
-//       features: ['Adaptive Cruise Control', 'Lane Departure Warning', 'Wireless Charging'],
-//       drivetrain: 'FWD',
-//       transmission: 'Automatic',
-//     },
-//     license_plate: 'ABC1234',
-//     date_added: '2024-07-18',
-//     photos: ['https://tmna.aemassets.toyota.com/is/image/toyota/toyota/jellies/max/2024/camryhybrid/xsehybrid/2557/2pt/36/5.png?fmt=png-alpha&wid=930&qlt=90'],
-//     seller_info: {
-//       name: 'John Doe',
-//       contact: 'john@example.com',
-//       address: '123 Main St, Anytown, USA',
-//     },
-//     warranty_info: '3 years or 36,000 miles warranty',
-//   }
 
 
 export function Cars_Card () {
-
-//   const [showMore, setShowMore] = useState<boolean>(false)
 
     const [cars, setCars] = useState<Car[]>([])
     const [showMore, setShowMore] = useState<number | null>(null)
