@@ -1,11 +1,14 @@
-const express = require('express') // intit express
-const bodyParser = require('body-parser')
+const express = require('express')
+const cars = require('./db/cars.json')
+
 const carsRoutes = require('./routes/cars')
 
 const app = express()
-const PORT = 3456
+app.disable('x-powered-by')
+app.use(express.json())
 
-app.use(bodyParser.json())
+const PORT = process.env.PORT ?? 3456
+
 app.use('/cars', carsRoutes)
 
 app.listen(PORT, () => {
