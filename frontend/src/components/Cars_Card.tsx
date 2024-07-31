@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 import { Car } from "../types/cars"
-// import cars from "../../public/mock/cars.json"
 
 export function Cars_Card () {
 
@@ -9,7 +8,8 @@ export function Cars_Card () {
 
     useEffect(() => {
         const fetchCars = async () => {
-            const response = await fetch('/cars.json')
+            const response = await fetch('../../public/mock/cars.json')
+            // const response = await fetch('../../../backend/db/cars.json')
             const data = await response.json()
             setCars(data)
         }
@@ -19,7 +19,7 @@ export function Cars_Card () {
     return (
 
         <div>
-      <h1>Cars List</h1>
+      <h1 className="p-4 text-2xl font-bold">Cars List</h1>
       {cars.map(car => (
         <div key={car.id} className="bg-gray-700 shadow-md rounded p-4 mt-4 max-w-md mx-auto">
           <img src={car.photos[0]} alt={`${car.brand} ${car.model}`} className="w-full h-48 object-cover rounded" />

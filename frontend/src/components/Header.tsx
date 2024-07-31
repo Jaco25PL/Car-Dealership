@@ -4,8 +4,8 @@ export function Header () {
 
 
     return (
-        <header className=" p-4 mt-4">
-            <h2 className="text-2xl">Welcome to Our Car Dealership</h2>
+        <header className="bg-slate-800 p-4 h-80 flex justify-center items-center">
+            <h2 className="text-5xl font-bold">Welcome to Our Car Dealership</h2>
         </header>
     )
 }
