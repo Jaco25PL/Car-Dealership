@@ -1,1 +1,51 @@
-GET http://localhost:3456/
+GET http://localhost:3456/cars/5
+
+###
+GET http://localhost:3456/cars
+
+### Get cars by year
+GET http://localhost:3456/cars?year=2022
+
+### Get cars by chasis
+GET http://localhost:3456/cars?brand=porsche
+
+
+### POST a ner car
+POST  http://localhost:3456/cars
+content-type: application/json
+
+{
+    "chasis": "coupe",
+    "brand": "Aston Martin",
+    "model": "DBS",
+    "year": 2017,
+    "price": 150000,
+    "color": [
+      "Black",
+      "Gray"
+    ],
+    "condition": "brand new",
+    "datasheet": {
+      "hp": 840,
+      "engine": "5.0L V8",
+      "fuel": "gasoline",
+      "consumption": "11.5 L/100 km",
+      "torque": "784 lb-ft",
+      "max_speed": "388 km/h",
+      "weight": "1520 kg",
+      "kilometers": 0,
+      "features": [
+        "Sport Package"
+      ],
+      "drivetrain": "AWD",
+      "transmission": "Manual"
+    }
+}
+
+### PATCH to change features by car id
+PATCH  http://localhost:3456/cars/5
+Content-Type: application/json
+
+{
+    "year": 2026
+}
