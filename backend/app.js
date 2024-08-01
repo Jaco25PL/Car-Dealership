@@ -119,6 +119,24 @@ app.options('/cars/:id', (req, res) => {
 })
 
 
+
+app.delete('/cars/:id' , (req, res) => {
+  
+  res.header('Access-Control-Allow-Origin', '*')
+
+  const { id } = req.params
+  const carIndex = cars.findIndex( car => car.id == id )
+
+  if ( carIndex === -1 ) {
+    return res.status(404).json({ message: 'Movie not found' })
+  }
+
+  cars.splice( carIndex, 1)
+
+  return res.status(200).json({ message: 'Car deleted' })
+})
+
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
 })
