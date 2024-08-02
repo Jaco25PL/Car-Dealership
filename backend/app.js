@@ -1,22 +1,24 @@
 const express = require('express')
 const cars = require('./db/cars.json')
 const crypto = require('node:crypto')
-const { validateCar, validatePartialCar } = require('./schemas/cars')
-// const carsRoutes = require('./routes/cars')
 
 const app = express()
 app.disable('x-powered-by')
 app.use(express.json())
 
+app.use(express.static('../frontend'))
+
+const { validateCar, validatePartialCar } = require('./schemas/cars')
 const PORT = process.env.PORT ?? 3456
 
-// app.use('/cars', carsRoutes)
+
+
 
 app.get('/cars/:id' , (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
 
   const { id } = req.params // Get ID from the request param
-  const car = cars.find( car => car.id === parseInt(id))
+  const car = cars.find( car => car.id === id)
   if ( car ) return res.json( car )
 
   res.status(404).json({ message: "Car not found" })
@@ -95,7 +97,7 @@ app.patch('/cars/:id' , (req, res) => {
   }
 
   const { id } = req.params
-  const carIndex = cars.findIndex( car => car.id == id) // fix later
+  const carIndex = cars.findIndex( car => car.id === id)
   if ( carIndex === -1 ) {
     return res.status(404).json({ message: "Car not found" })
   }
@@ -125,7 +127,7 @@ app.delete('/cars/:id' , (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
 
   const { id } = req.params
-  const carIndex = cars.findIndex( car => car.id == id )
+  const carIndex = cars.findIndex( car => car.id === id )
 
   if ( carIndex === -1 ) {
     return res.status(404).json({ message: 'Movie not found' })
@@ -135,6 +137,8 @@ app.delete('/cars/:id' , (req, res) => {
 
   return res.status(200).json({ message: 'Car deleted' })
 })
+
+
 
 
 app.listen(PORT, () => {

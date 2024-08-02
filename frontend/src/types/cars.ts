@@ -11,6 +11,19 @@ export interface Datasheet {
     drivetrain: string
     transmission: string
   }
+
+export interface Cars {
+  id: string
+  chasis: string
+  brand: string
+  model: string
+  year: number
+  price: number
+  color: string[]
+  condition: string
+  photos: string[]
+  datasheet: Datasheet
+}
   
   export interface SellerInfo {
     name: string

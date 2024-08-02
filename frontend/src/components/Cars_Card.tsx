@@ -1,24 +1,13 @@
-import { useState, useEffect } from "react"
-import { Car } from "../types/cars"
+import { useState } from "react"
+import { Cars } from "../types/cars"
 
-export function Cars_Card () {
+export function Cars_Card ( {cars} : {cars: Cars[]} ) {
 
-    const [cars, setCars] = useState<Car[]>([])
-    const [showMore, setShowMore] = useState<number | null>(null)
-
-    useEffect(() => {
-        const fetchCars = async () => {
-            const response = await fetch('../../public/mock/cars.json')
-            // const response = await fetch('../../../backend/db/cars.json')
-            const data = await response.json()
-            setCars(data)
-        }
-        fetchCars()
-    }, [])
+    const [showMore, setShowMore] = useState<string | null>(null)
 
     return (
 
-        <div>
+      <div>
       <h1 className="p-4 text-2xl font-bold">Cars List</h1>
       {cars.map(car => (
         <div key={car.id} className="bg-gray-700 shadow-md rounded p-4 mt-4 max-w-md mx-auto">
