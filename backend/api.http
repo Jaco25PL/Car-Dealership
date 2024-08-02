@@ -1,4 +1,4 @@
-GET http://localhost:3456/cars/5
+GET http://localhost:3456/cars/1
 
 ###
 GET http://localhost:3456/cars
@@ -49,3 +49,6 @@ Content-Type: application/json
 {
     "year": 1900
 }
+
+### Delete a car
+DELETE http://localhost:3456/cars/1
