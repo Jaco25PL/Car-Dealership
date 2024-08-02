@@ -10,6 +10,7 @@ const carSchema = z.object({
   price: z.number().nonnegative(),
   color: z.array(z.string()).min(1).max(5),
   condition: z.enum(['used', 'brand new']),
+  photos: z.array(z.string().url().min(1)),
   datasheet: z.object({
     hp: z.number().nonnegative(),
     engine: z.string(),

@@ -1,817 +1,844 @@
 [
-    { "id": 1,
-      "chasis": "sedan",
-      "brand": "Mercedes",
-      "model": "C-Class",
-      "year": 2024,
-      "price": 45000,
-      "color": ["Black", "White", "Blue"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 255,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "7.1 L/100 km",
-        "torque": "273 lb-ft",
-        "max_speed": "250 km/h",
-        "weight": "1520 kg",
-        "kilometers": 0,
-        "features": ["Sunroof", "Leather Seats", "Navigation System"],
-        "drivetrain": "RWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 2,
-      "chasis": "SUV",
-      "brand": "BMW",
-      "model": "X5",
-      "year": 2024,
-      "price": 60000,
-      "color": ["Black", "White", "Gray", "Blue", "Red"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 335,
-        "engine": "3.0L Inline-6 Turbo",
-        "fuel": "gasoline",
-        "consumption": "8.9 L/100 km",
-        "torque": "330 lb-ft",
-        "max_speed": "230 km/h",
-        "weight": "2135 kg",
-        "kilometers": 0,
-        "features": ["Panoramic Sunroof", "Heated Seats", "Adaptive Cruise Control"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 3,
+    {
+      "id": "4c8c6128-070c-4929-99f1-33573b15969c",
       "chasis": "coupe",
-      "brand": "Audi",
-      "model": "A5",
-      "year": 2024,
-      "price": 45000,
-      "color": ["Black", "White", "Silver"],
+      "brand": "Aston Martin",
+      "model": "DBS",
+      "year": 2023,
+      "price": 150000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Gray"
+      ],
       "condition": "brand new",
       "datasheet": {
-        "hp": 261,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "7.5 L/100 km",
-        "torque": "273 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1640 kg",
-        "kilometers": 0,
-        "features": ["Leather Seats", "Virtual Cockpit", "Bang & Olufsen Sound System"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 4,
-      "chasis": "SUV",
-      "brand": "Volvo",
-      "model": "XC90",
-      "year": 2024,
-      "price": 64000,
-      "color": ["Black", "White", "Gray"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 316,
-        "engine": "2.0L Inline-4 Turbo and Supercharged",
-        "fuel": "gasoline",
-        "consumption": "8.7 L/100 km",
-        "torque": "295 lb-ft",
-        "max_speed": "215 km/h",
-        "weight": "2180 kg",
-        "kilometers": 0,
-        "features": ["Panoramic Sunroof", "Heated and Ventilated Seats", "Pilot Assist"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 5,
-      "chasis": "pickup",
-      "brand": "Ford",
-      "model": "F-150",
-      "year": 2024,
-      "price": 52000,
-      "color": ["Black", "White", "Red", "Blue"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 400,
+        "hp": 840,
         "engine": "5.0L V8",
         "fuel": "gasoline",
         "consumption": "11.5 L/100 km",
-        "torque": "410 lb-ft",
-        "max_speed": "180 km/h",
-        "weight": "2260 kg",
+        "torque": "784 lb-ft",
+        "max_speed": "388 km/h",
+        "weight": "1520 kg",
         "kilometers": 0,
-        "features": ["Tow Package", "4WD", "Touchscreen Infotainment System"],
-        "drivetrain": "4WD",
-        "transmission": "Automatic"
+        "features": [
+          "Sport Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Manual"
       }
     },
-    { "id": 6,
+    {
+      "id": "d2912e7d-32f6-4b15-91f5-b98d48f9f9c4",
       "chasis": "sedan",
-      "brand": "Toyota",
-      "model": "Camry",
-      "year": 2024,
-      "price": 30000,
-      "color": ["Black", "White", "Gray", "Red"],
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2023,
+      "price": 40000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "White",
+        "Blue"
+      ],
       "condition": "brand new",
       "datasheet": {
-        "hp": 203,
-        "engine": "2.5L Inline-4",
+        "hp": 255,
+        "engine": "2.0L I4",
         "fuel": "gasoline",
-        "consumption": "7.8 L/100 km",
-        "torque": "184 lb-ft",
-        "max_speed": "210 km/h",
-        "weight": "1490 kg",
+        "consumption": "8.0 L/100 km",
+        "torque": "273 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "1500 kg",
         "kilometers": 0,
-        "features": ["Adaptive Cruise Control", "Lane Departure Warning", "Wireless Charging"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 7,
-      "chasis": "SUV",
-      "brand": "Nissan",
-      "model": "Rogue",
-      "year": 2024,
-      "price": 32000,
-      "color": ["Black", "White", "Gray", "Blue"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 181,
-        "engine": "2.5L Inline-4",
-        "fuel": "gasoline",
-        "consumption": "8.4 L/100 km",
-        "torque": "181 lb-ft",
-        "max_speed": "200 km/h",
-        "weight": "1630 kg",
-        "kilometers": 0,
-        "features": ["ProPilot Assist", "Panoramic Sunroof", "Heated Front Seats"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 8,
-      "chasis": "sedan",
-      "brand": "Lexus",
-      "model": "ES",
-      "year": 2024,
-      "price": 43000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 302,
-        "engine": "3.5L V6",
-        "fuel": "gasoline",
-        "consumption": "9.1 L/100 km",
-        "torque": "267 lb-ft",
-        "max_speed": "230 km/h",
-        "weight": "1700 kg",
-        "kilometers": 0,
-        "features": ["Mark Levinson Sound System", "Heated and Ventilated Seats", "Heads-Up Display"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 9,
-      "chasis": "coupe",
-      "brand": "Chevrolet",
-      "model": "Camaro",
-      "year": 2024,
-      "price": 37000,
-      "color": ["Black", "White", "Red", "Yellow"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 275,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "9.4 L/100 km",
-        "torque": "295 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1560 kg",
-        "kilometers": 0,
-        "features": ["Brembo Brakes", "Apple CarPlay", "Performance Suspension"],
+        "features": [
+          "Luxury Package"
+        ],
         "drivetrain": "RWD",
-        "transmission": "Automatic"
+        "transmission": "Manual"
       }
     },
-    { "id": 10,
-      "chasis": "sedan",
-      "brand": "Cadillac",
-      "model": "CT5",
-      "year": 2024,
-      "price": 50000,
-      "color": ["Black", "White", "Gray", "Blue"],
+    {
+      "id": "9f1e9e3a-b9f0-4d5e-91bb-bb792d0a3a9a",
+      "chasis": "coupe",
+      "brand": "BMW",
+      "model": "M4",
+      "year": 2023,
+      "price": 70000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Red",
+        "Black"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 425,
+        "engine": "3.0L I6",
+        "fuel": "gasoline",
+        "consumption": "10.0 L/100 km",
+        "torque": "406 lb-ft",
+        "max_speed": "280 km/h",
+        "weight": "1615 kg",
+        "kilometers": 0,
+        "features": [
+          "Performance Package"
+        ],
+        "drivetrain": "RWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "bf71f3e1-0b0e-4d68-b55b-4b0c2b9b5b4f",
+      "chasis": "suv",
+      "brand": "Audi",
+      "model": "Q7",
+      "year": 2023,
+      "price": 60000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Silver",
+        "Black"
+      ],
       "condition": "brand new",
       "datasheet": {
         "hp": 335,
-        "engine": "3.0L V6 Twin Turbo",
+        "engine": "3.0L V6",
         "fuel": "gasoline",
-        "consumption": "10.2 L/100 km",
-        "torque": "400 lb-ft",
+        "consumption": "9.0 L/100 km",
+        "torque": "369 lb-ft",
         "max_speed": "250 km/h",
-        "weight": "1760 kg",
+        "weight": "2040 kg",
         "kilometers": 0,
-        "features": ["Super Cruise", "Bose Sound System", "Wireless Charging"],
-        "drivetrain": "RWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 11,
-      "chasis": "sedan",
-      "brand": "Honda",
-      "model": "Accord",
-      "year": 2024,
-      "price": 31000,
-      "color": ["Black", "White", "Silver", "Blue"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 192,
-        "engine": "1.5L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "7.6 L/100 km",
-        "torque": "192 lb-ft",
-        "max_speed": "220 km/h",
-        "weight": "1465 kg",
-        "kilometers": 0,
-        "features": ["Adaptive Cruise Control", "Lane Keeping Assist", "Remote Start"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 12,
-      "chasis": "SUV",
-      "brand": "Mitsubishi",
-      "model": "Outlander",
-      "year": 2024,
-      "price": 34000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "brand new",
-      "datasheet": {
-        "hp": 181,
-        "engine": "2.5L Inline-4",
-        "fuel": "gasoline",
-        "consumption": "8.1 L/100 km",
-        "torque": "181 lb-ft",
-        "max_speed": "195 km/h",
-        "weight": "1690 kg",
-        "kilometers": 0,
-        "features": ["Super All-Wheel Control", "LED Headlights", "Heated Seats"],
+        "features": [
+          "Technology Package"
+        ],
         "drivetrain": "AWD",
         "transmission": "Automatic"
       }
     },
-    { "id": 13,
-      "chasis": "SUV",
-      "brand": "Mercedes",
-      "model": "GLC",
-      "year": 2023,
-      "price": 51000,
-      "color": ["Black", "White", "Gray", "Blue"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 255,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "7.6 L/100 km",
-        "torque": "273 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1725 kg",
-        "kilometers": 20000,
-        "features": ["MBUX Infotainment", "Heated Front Seats", "Keyless Entry"],
-        "drivetrain": "AWD",
-        "transmission": "Manual"
-      }
-    },
-    { "id": 14,
-      "chasis": "sedan",
-      "brand": "BMW",
-      "model": "3 Series",
-      "year": 2022,
-      "price": 42000,
-      "color": ["Black", "White", "Gray", "Blue"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 255,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "7.4 L/100 km",
-        "torque": "295 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1530 kg",
-        "kilometers": 15000,
-        "features": ["Live Cockpit Professional", "Heated Steering Wheel", "Remote Engine Start"],
-        "drivetrain": "RWD",
-        "transmission": "Manual"
-      }
-    },
-    { "id": 15,
-      "chasis": "coupe",
-      "brand": "Audi",
-      "model": "A5",
-      "year": 2021,
-      "price": 41000,
-      "color": ["Black", "White", "Silver"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 261,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "7.5 L/100 km",
-        "torque": "273 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1640 kg",
-        "kilometers": 25000,
-        "features": ["Leather Seats", "Virtual Cockpit", "Bang & Olufsen Sound System"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 16,
-      "chasis": "SUV",
-      "brand": "Volvo",
-      "model": "XC60",
-      "year": 2021,
-      "price": 46000,
-      "color": ["Black", "White", "Gray"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 250,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "8.4 L/100 km",
-        "torque": "258 lb-ft",
-        "max_speed": "210 km/h",
-        "weight": "1915 kg",
-        "kilometers": 30000,
-        "features": ["Pilot Assist", "Panoramic Sunroof", "Heated Seats"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 17,
+    {
+      "id": "d6f0e8c7-6271-4f9f-92d7-e14a3b6d7d23",
       "chasis": "pickup",
       "brand": "Ford",
-      "model": "Ranger",
-      "year": 2022,
-      "price": 40000,
-      "color": ["Black", "White", "Red", "Blue"],
-      "condition": "used",
+      "model": "F-150",
+      "year": 2023,
+      "price": 35000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Gray"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 270,
-        "engine": "2.3L Inline-4 Turbo",
+        "hp": 375,
+        "engine": "3.5L V6",
         "fuel": "gasoline",
-        "consumption": "10.6 L/100 km",
-        "torque": "310 lb-ft",
-        "max_speed": "175 km/h",
-        "weight": "2040 kg",
-        "kilometers": 18000,
-        "features": ["Tow Package", "4WD", "Touchscreen Infotainment System"],
+        "consumption": "12.0 L/100 km",
+        "torque": "470 lb-ft",
+        "max_speed": "200 km/h",
+        "weight": "2300 kg",
+        "kilometers": 0,
+        "features": [
+          "Off-Road Package"
+        ],
+        "drivetrain": "4WD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "3a2e9c4d-a6e0-4a9a-8e2e-3f3f8f3f4f3a",
+      "chasis": "coupe",
+      "brand": "Porsche",
+      "model": "911",
+      "year": 2023,
+      "price": 120000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Yellow",
+        "Black"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 450,
+        "engine": "3.0L H6",
+        "fuel": "gasoline",
+        "consumption": "10.0 L/100 km",
+        "torque": "405 lb-ft",
+        "max_speed": "310 km/h",
+        "weight": "1505 kg",
+        "kilometers": 0,
+        "features": [
+          "Sport Chrono Package"
+        ],
+        "drivetrain": "RWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "4b9c1d0e-7c8e-4f6e-9c1e-2f1d8b8a7b6e",
+      "chasis": "sedan",
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2023,
+      "price": 30000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "White",
+        "Silver"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 301,
+        "engine": "3.5L V6",
+        "fuel": "gasoline",
+        "consumption": "8.4 L/100 km",
+        "torque": "267 lb-ft",
+        "max_speed": "210 km/h",
+        "weight": "1570 kg",
+        "kilometers": 0,
+        "features": [
+          "Safety Sense Package"
+        ],
+        "drivetrain": "FWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "5c6d7e8f-9a0b-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "suv",
+      "brand": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2023,
+      "price": 55000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 355,
+        "engine": "5.3L V8",
+        "fuel": "gasoline",
+        "consumption": "13.0 L/100 km",
+        "torque": "383 lb-ft",
+        "max_speed": "180 km/h",
+        "weight": "2480 kg",
+        "kilometers": 0,
+        "features": [
+          "Luxury Package"
+        ],
         "drivetrain": "4WD",
         "transmission": "Automatic"
       }
     },
-    { "id": 18,
+    {
+      "id": "6d7e8f9a-0b1c-4c1d-8e2e-3f3f8f3f4f3a",
       "chasis": "sedan",
-      "brand": "Toyota",
-      "model": "Camry",
-      "year": 2020,
-      "price": 28000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "used",
+      "brand": "Cadillac",
+      "model": "CT6",
+      "year": 2023,
+      "price": 75000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Gray"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 203,
-        "engine": "2.5L Inline-4",
+        "hp": 404,
+        "engine": "3.0L V6",
         "fuel": "gasoline",
-        "consumption": "7.8 L/100 km",
-        "torque": "184 lb-ft",
-        "max_speed": "210 km/h",
-        "weight": "1490 kg",
-        "kilometers": 35000,
-        "features": ["Adaptive Cruise Control", "Lane Departure Warning", "Wireless Charging"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
+        "consumption": "10.5 L/100 km",
+        "torque": "400 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "1850 kg",
+        "kilometers": 0,
+        "features": [
+          "Platinum Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Manual"
       }
     },
-    { "id": 19,
-      "chasis": "SUV",
-      "brand": "Nissan",
-      "model": "Rogue",
-      "year": 2020,
-      "price": 27000,
-      "color": ["Black", "White", "Gray", "Blue"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 181,
-        "engine": "2.5L Inline-4",
-        "fuel": "gasoline",
-        "consumption": "8.4 L/100 km",
-        "torque": "181 lb-ft",
-        "max_speed": "200 km/h",
-        "weight": "1630 kg",
-        "kilometers": 40000,
-        "features": ["ProPilot Assist", "Panoramic Sunroof", "Heated Front Seats"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 20,
-      "chasis": "sedan",
-      "brand": "Lexus",
-      "model": "ES",
-      "year": 2019,
-      "price": 37000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 302,
-        "engine": "3.5L V6",
-        "fuel": "gasoline",
-        "consumption": "9.1 L/100 km",
-        "torque": "267 lb-ft",
-        "max_speed": "230 km/h",
-        "weight": "1700 kg",
-        "kilometers": 50000,
-        "features": ["Mark Levinson Sound System", "Heated and Ventilated Seats", "Heads-Up Display"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 21,
+    {
+      "id": "7e8f9a0b-1c2d-4c1d-8e2e-3f3f8f3f4f3a",
       "chasis": "coupe",
-      "brand": "Chevrolet",
-      "model": "Camaro",
-      "year": 2018,
-      "price": 33000,
-      "color": ["Black", "White", "Red", "Yellow"],
-      "condition": "used",
+      "brand": "Mercedes-Benz",
+      "model": "AMG GT",
+      "year": 2023,
+      "price": 160000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Silver",
+        "Black"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 275,
-        "engine": "2.0L Inline-4 Turbo",
+        "hp": 577,
+        "engine": "4.0L V8",
         "fuel": "gasoline",
-        "consumption": "9.4 L/100 km",
-        "torque": "295 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1560 kg",
-        "kilometers": 45000,
-        "features": ["Brembo Brakes", "Apple CarPlay", "Performance Suspension"],
+        "consumption": "12.5 L/100 km",
+        "torque": "516 lb-ft",
+        "max_speed": "318 km/h",
+        "weight": "1645 kg",
+        "kilometers": 0,
+        "features": [
+          "Performance Package"
+        ],
         "drivetrain": "RWD",
         "transmission": "Manual"
       }
     },
-    { "id": 22,
+    {
+      "id": "8f9a0b1c-2d3e-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "suv",
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2023,
+      "price": 65000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 335,
+        "engine": "3.0L I6",
+        "fuel": "gasoline",
+        "consumption": "9.5 L/100 km",
+        "torque": "330 lb-ft",
+        "max_speed": "243 km/h",
+        "weight": "2185 kg",
+        "kilometers": 0,
+        "features": [
+          "Luxury Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": "9a0b1c2d-3e4f-4c1d-8e2e-3f3f8f3f4f3a",
       "chasis": "sedan",
+      "brand": "Audi",
+      "model": "A8",
+      "year": 2023,
+      "price": 90000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Silver"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 335,
+        "engine": "3.0L V6",
+        "fuel": "gasoline",
+        "consumption": "9.0 L/100 km",
+        "torque": "369 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "1950 kg",
+        "kilometers": 0,
+        "features": [
+          "Technology Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "0b1c2d3e-4f5g-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "coupe",
+      "brand": "Chevrolet",
+      "model": "Corvette",
+      "year": 2023,
+      "price": 90000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Red",
+        "Black"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 495,
+        "engine": "6.2L V8",
+        "fuel": "gasoline",
+        "consumption": "12.0 L/100 km",
+        "torque": "470 lb-ft",
+        "max_speed": "312 km/h",
+        "weight": "1530 kg",
+        "kilometers": 0,
+        "features": [
+          "Performance Package"
+        ],
+        "drivetrain": "RWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "1c2d3e4f-5g6h-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "suv",
+      "brand": "Porsche",
+      "model": "Cayenne",
+      "year": 2023,
+      "price": 85000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 335,
+        "engine": "3.0L V6",
+        "fuel": "gasoline",
+        "consumption": "10.0 L/100 km",
+        "torque": "332 lb-ft",
+        "max_speed": "245 km/h",
+        "weight": "2045 kg",
+        "kilometers": 0,
+        "features": [
+          "Sport Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": "2d3e4f5g-6h7i-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "sedan",
+      "brand": "Mercedes-Benz",
+      "model": "S-Class",
+      "year": 2023,
+      "price": 110000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Silver"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 429,
+        "engine": "3.0L I6",
+        "fuel": "gasoline",
+        "consumption": "10.5 L/100 km",
+        "torque": "384 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "2110 kg",
+        "kilometers": 0,
+        "features": [
+          "Luxury Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "3e4f5g6h-7i8j-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "pickup",
+      "brand": "Toyota",
+      "model": "Tundra",
+      "year": 2023,
+      "price": 50000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Gray"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 381,
+        "engine": "5.7L V8",
+        "fuel": "gasoline",
+        "consumption": "14.0 L/100 km",
+        "torque": "401 lb-ft",
+        "max_speed": "175 km/h",
+        "weight": "2650 kg",
+        "kilometers": 0,
+        "features": [
+          "Off-Road Package"
+        ],
+        "drivetrain": "4WD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "4f5g6h7i-8j9k-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "coupe",
+      "brand": "BMW",
+      "model": "M2",
+      "year": 2023,
+      "price": 60000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 405,
+        "engine": "3.0L I6",
+        "fuel": "gasoline",
+        "consumption": "10.5 L/100 km",
+        "torque": "406 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "1630 kg",
+        "kilometers": 0,
+        "features": [
+          "Sport Package"
+        ],
+        "drivetrain": "RWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "5g6h7i8j-9k0l-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "suv",
+      "brand": "Audi",
+      "model": "Q5",
+      "year": 2023,
+      "price": 50000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Gray"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 261,
+        "engine": "2.0L I4",
+        "fuel": "gasoline",
+        "consumption": "9.0 L/100 km",
+        "torque": "273 lb-ft",
+        "max_speed": "237 km/h",
+        "weight": "1815 kg",
+        "kilometers": 0,
+        "features": [
+          "Technology Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": "6h7i8j9k-0l1m-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "sedan",
+      "brand": "Chevrolet",
+      "model": "Impala",
+      "year": 2023,
+      "price": 35000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Silver"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 305,
+        "engine": "3.6L V6",
+        "fuel": "gasoline",
+        "consumption": "10.5 L/100 km",
+        "torque": "264 lb-ft",
+        "max_speed": "210 km/h",
+        "weight": "1680 kg",
+        "kilometers": 0,
+        "features": [
+          "Luxury Package"
+        ],
+        "drivetrain": "FWD",
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": "7i8j9k0l-1m2n-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "coupe",
       "brand": "Cadillac",
-      "model": "CTS",
-      "year": 2017,
-      "price": 29000,
-      "color": ["Black", "White", "Gray", "Blue"],
-      "condition": "used",
+      "model": "ATS",
+      "year": 2023,
+      "price": 50000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Red"
+      ],
+      "condition": "brand new",
       "datasheet": {
         "hp": 335,
         "engine": "3.6L V6",
         "fuel": "gasoline",
-        "consumption": "10.2 L/100 km",
+        "consumption": "10.0 L/100 km",
         "torque": "285 lb-ft",
         "max_speed": "250 km/h",
-        "weight": "1745 kg",
-        "kilometers": 60000,
-        "features": ["Bose Sound System", "Wireless Charging", "Heads-Up Display"],
-        "drivetrain": "RWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 23,
-      "chasis": "sedan",
-      "brand": "Honda",
-      "model": "Civic",
-      "year": 2015,
-      "price": 15000,
-      "color": ["Black", "White", "Silver", "Blue"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 143,
-        "engine": "1.8L Inline-4",
-        "fuel": "gasoline",
-        "consumption": "6.7 L/100 km",
-        "torque": "129 lb-ft",
-        "max_speed": "200 km/h",
-        "weight": "1290 kg",
-        "kilometers": 75000,
-        "features": ["Rearview Camera", "Bluetooth", "Heated Front Seats"],
-        "drivetrain": "FWD",
-        "transmission": "Manual"
-      }
-    },
-    { "id": 24,
-      "chasis": "SUV",
-      "brand": "Mitsubishi",
-      "model": "Outlander",
-      "year": 2015,
-      "price": 18000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 166,
-        "engine": "2.4L Inline-4",
-        "fuel": "gasoline",
-        "consumption": "8.5 L/100 km",
-        "torque": "162 lb-ft",
-        "max_speed": "190 km/h",
-        "weight": "1610 kg",
-        "kilometers": 80000,
-        "features": ["Super All-Wheel Control", "Heated Seats", "Touchscreen Infotainment"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 25,
-      "chasis": "sedan",
-      "brand": "Mercedes",
-      "model": "E-Class",
-      "year": 2014,
-      "price": 20000,
-      "color": ["Black", "White", "Silver"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 302,
-        "engine": "3.5L V6",
-        "fuel": "gasoline",
-        "consumption": "9.8 L/100 km",
-        "torque": "273 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1690 kg",
-        "kilometers": 90000,
-        "features": ["Leather Seats", "Navigation System", "Harman Kardon Sound System"],
+        "weight": "1560 kg",
+        "kilometers": 0,
+        "features": [
+          "Performance Package"
+        ],
         "drivetrain": "RWD",
         "transmission": "Manual"
       }
     },
-    { "id": 26,
-      "chasis": "SUV",
-      "brand": "BMW",
-      "model": "X3",
-      "year": 2013,
-      "price": 17000,
-      "color": ["Black", "White", "Gray"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 240,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "8.3 L/100 km",
-        "torque": "260 lb-ft",
-        "max_speed": "210 km/h",
-        "weight": "1790 kg",
-        "kilometers": 100000,
-        "features": ["Panoramic Sunroof", "Heated Front Seats", "Navigation System"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 27,
-      "chasis": "coupe",
-      "brand": "Audi",
-      "model": "A5",
-      "year": 2012,
-      "price": 16000,
-      "color": ["Black", "White", "Silver"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 211,
-        "engine": "2.0L Inline-4 Turbo",
-        "fuel": "gasoline",
-        "consumption": "7.9 L/100 km",
-        "torque": "258 lb-ft",
-        "max_speed": "240 km/h",
-        "weight": "1600 kg",
-        "kilometers": 110000,
-        "features": ["Leather Seats", "Sunroof", "Bang & Olufsen Sound System"],
-        "drivetrain": "AWD",
-        "transmission": "Manual"
-      }
-    },
-    { "id": 28,
-      "chasis": "sedan",
+    {
+      "id": "8j9k0l1m-2n3o-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "suv",
       "brand": "Toyota",
-      "model": "Corolla",
-      "year": 2011,
-      "price": 12000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "used",
+      "model": "Land Cruiser",
+      "year": 2023,
+      "price": 85000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 132,
-        "engine": "1.8L Inline-4",
+        "hp": 381,
+        "engine": "5.7L V8",
         "fuel": "gasoline",
-        "consumption": "7.1 L/100 km",
-        "torque": "128 lb-ft",
-        "max_speed": "190 km/h",
-        "weight": "1270 kg",
-        "kilometers": 120000,
-        "features": ["Bluetooth", "Heated Mirrors", "Cruise Control"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 29,
-      "chasis": "sedan",
-      "brand": "Nissan",
-      "model": "Altima",
-      "year": 2010,
-      "price": 10000,
-      "color": ["Black", "White", "Gray", "Blue"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 175,
-        "engine": "2.5L Inline-4",
-        "fuel": "gasoline",
-        "consumption": "8.4 L/100 km",
-        "torque": "180 lb-ft",
-        "max_speed": "210 km/h",
-        "weight": "1440 kg",
-        "kilometers": 130000,
-        "features": ["Keyless Entry", "Bluetooth", "Rearview Camera"],
-        "drivetrain": "FWD",
-        "transmission": "Automatic"
-      }
-    },
-    { "id": 30,
-      "chasis": "sedan",
-      "brand": "Honda",
-      "model": "Accord",
-      "year": 2009,
-      "price": 9000,
-      "color": ["Black", "White", "Silver", "Blue"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 177,
-        "engine": "2.4L Inline-4",
-        "fuel": "gasoline",
-        "consumption": "8.7 L/100 km",
-        "torque": "161 lb-ft",
-        "max_speed": "200 km/h",
-        "weight": "1490 kg",
-        "kilometers": 140000,
-        "features": ["Sunroof", "Heated Front Seats", "Bluetooth"],
-        "drivetrain": "FWD",
+        "consumption": "14.5 L/100 km",
+        "torque": "401 lb-ft",
+        "max_speed": "175 km/h",
+        "weight": "2710 kg",
+        "kilometers": 0,
+        "features": [
+          "Off-Road Package"
+        ],
+        "drivetrain": "4WD",
         "transmission": "Manual"
       }
     },
-    { "id": 31,
-      "chasis": "SUV",
-      "brand": "Ford",
-      "model": "Escape",
-      "year": 2008,
-      "price": 8000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "used",
+    {
+      "id": "9k0l1m2n-3o4p-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "coupe",
+      "brand": "Porsche",
+      "model": "Cayman",
+      "year": 2023,
+      "price": 70000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Red"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 200,
+        "hp": 300,
+        "engine": "2.0L H4",
+        "fuel": "gasoline",
+        "consumption": "9.5 L/100 km",
+        "torque": "280 lb-ft",
+        "max_speed": "275 km/h",
+        "weight": "1415 kg",
+        "kilometers": 0,
+        "features": [
+          "Sport Package"
+        ],
+        "drivetrain": "RWD",
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": "0l1m2n3o-4p5q-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "sedan",
+      "brand": "Mercedes-Benz",
+      "model": "E-Class",
+      "year": 2023,
+      "price": 70000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 362,
         "engine": "3.0L V6",
         "fuel": "gasoline",
-        "consumption": "10.5 L/100 km",
-        "torque": "193 lb-ft",
-        "max_speed": "185 km/h",
-        "weight": "1630 kg",
-        "kilometers": 150000,
-        "features": ["Keyless Entry", "Bluetooth", "Cruise Control"],
+        "consumption": "10.0 L/100 km",
+        "torque": "369 lb-ft",
+        "max_speed": "250 km/h",
+        "weight": "1845 kg",
+        "kilometers": 0,
+        "features": [
+          "Luxury Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "1m2n3o4p-5q6r-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "pickup",
+      "brand": "Ford",
+      "model": "Ranger",
+      "year": 2023,
+      "price": 45000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Gray"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 270,
+        "engine": "2.3L I4",
+        "fuel": "gasoline",
+        "consumption": "11.0 L/100 km",
+        "torque": "310 lb-ft",
+        "max_speed": "190 km/h",
+        "weight": "2030 kg",
+        "kilometers": 0,
+        "features": [
+          "Off-Road Package"
+        ],
+        "drivetrain": "4WD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "2n3o4p5q-6r7s-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "coupe",
+      "brand": "BMW",
+      "model": "M8",
+      "year": 2023,
+      "price": 130000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 617,
+        "engine": "4.4L V8",
+        "fuel": "gasoline",
+        "consumption": "13.5 L/100 km",
+        "torque": "553 lb-ft",
+        "max_speed": "305 km/h",
+        "weight": "1985 kg",
+        "kilometers": 0,
+        "features": [
+          "Performance Package"
+        ],
+        "drivetrain": "AWD",
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": "3o4p5q6r-7s8t-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "suv",
+      "brand": "Audi",
+      "model": "Q8",
+      "year": 2023,
+      "price": 70000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Silver"
+      ],
+      "condition": "brand new",
+      "datasheet": {
+        "hp": 335,
+        "engine": "3.0L V6",
+        "fuel": "gasoline",
+        "consumption": "10.0 L/100 km",
+        "torque": "369 lb-ft",
+        "max_speed": "245 km/h",
+        "weight": "2240 kg",
+        "kilometers": 0,
+        "features": [
+          "Technology Package"
+        ],
         "drivetrain": "AWD",
         "transmission": "Automatic"
       }
     },
-    { "id": 32,
+    {
+      "id": "4p5q6r7s-8t9u-4c1d-8e2e-3f3f8f3f4f3a",
       "chasis": "sedan",
       "brand": "Chevrolet",
       "model": "Malibu",
-      "year": 2007,
-      "price": 7000,
-      "color": ["Black", "White", "Gray", "Red"],
-      "condition": "used",
+      "year": 2023,
+      "price": 30000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "Gray"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 169,
-        "engine": "2.4L Inline-4",
+        "hp": 250,
+        "engine": "2.0L I4",
         "fuel": "gasoline",
-        "consumption": "9.1 L/100 km",
-        "torque": "160 lb-ft",
-        "max_speed": "180 km/h",
-        "weight": "1480 kg",
-        "kilometers": 160000,
-        "features": ["Keyless Entry", "Bluetooth", "Cruise Control"],
+        "consumption": "9.0 L/100 km",
+        "torque": "260 lb-ft",
+        "max_speed": "210 km/h",
+        "weight": "1465 kg",
+        "kilometers": 0,
+        "features": [
+          "Luxury Package"
+        ],
         "drivetrain": "FWD",
         "transmission": "Automatic"
       }
     },
-    { "id": 33,
-      "chasis": "sedan",
-      "brand": "BMW",
-      "model": "M3 Competition",
-      "year": 2018,
-      "price": 60000,
-      "color": ["Black", "White", "Blue"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 444,
-        "engine": "3.0L Inline-6 Twin-Turbo",
-        "fuel": "gasoline",
-        "consumption": "10.0 L/100 km",
-        "torque": "406 lb-ft",
-        "max_speed": "250 km/h",
-        "weight": "1585 kg",
-        "kilometers": 50000,
-        "features": ["Adaptive M Suspension", "Harman Kardon Sound System", "Carbon Fiber Roof"],
-        "drivetrain": "RWD",
-        "transmission": "Manual"
-      }
-    },
-    { "id": 34,
-      "chasis": "sedan",
-      "brand": "BMW",
-      "model": "M5",
-      "year": 2016,
+    {
+      "id": "5q6r7s8t-9u0v-4c1d-8e2e-3f3f8f3f4f3a",
+      "chasis": "pickup",
+      "brand": "RAM",
+      "model": "1500",
+      "year": 2023,
       "price": 55000,
-      "color": ["Black", "White", "Gray"],
-      "condition": "used",
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 560,
-        "engine": "4.4L V8 Twin-Turbo",
+        "hp": 395,
+        "engine": "5.7L V8",
         "fuel": "gasoline",
-        "consumption": "11.1 L/100 km",
-        "torque": "502 lb-ft",
-        "max_speed": "250 km/h",
-        "weight": "1945 kg",
-        "kilometers": 60000,
-        "features": ["M Dynamic Mode", "Bang & Olufsen Sound System", "Sunroof"],
-        "drivetrain": "RWD",
+        "consumption": "13.0 L/100 km",
+        "torque": "410 lb-ft",
+        "max_speed": "180 km/h",
+        "weight": "2450 kg",
+        "kilometers": 0,
+        "features": [
+          "Off-Road Package"
+        ],
+        "drivetrain": "4WD",
         "transmission": "Manual"
       }
     },
-    { "id": 35,
-      "chasis": "coupe",
-      "brand": "Audi",
-      "model": "RS5",
-      "year": 2017,
-      "price": 57000,
-      "color": ["Black", "White", "Red"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 450,
-        "engine": "2.9L V6 Twin-Turbo",
-        "fuel": "gasoline",
-        "consumption": "9.2 L/100 km",
-        "torque": "443 lb-ft",
-        "max_speed": "280 km/h",
-        "weight": "1715 kg",
-        "kilometers": 45000,
-        "features": ["Quattro AWD", "Virtual Cockpit", "Sport Exhaust System"],
-        "drivetrain": "AWD",
-        "transmission": "Manual"
-      }
-    },
-    { "id": 36,
-      "chasis": "coupe",
-      "brand": "Mercedes",
-      "model": "AMG C63 S",
-      "year": 2018,
-      "price": 62000,
-      "color": ["Black", "White", "Gray"],
-      "condition": "used",
-      "datasheet": {
-        "hp": 503,
-        "engine": "4.0L V8 Twin-Turbo",
-        "fuel": "gasoline",
-        "consumption": "10.4 L/100 km",
-        "torque": "516 lb-ft",
-        "max_speed": "290 km/h",
-        "weight": "1730 kg",
-        "kilometers": 40000,
-        "features": ["AMG Ride Control", "Burmester Sound System", "Performance Exhaust"],
-        "drivetrain": "RWD",
-        "transmission": "Manual"
-      }
-    },
-    { "id": 37,
+    {
+      "id": "6r7s8t9u-0v1w-4c1d-8e2e-3f3f8f3f4f3a",
       "chasis": "sedan",
-      "brand": "Porsche",
-      "model": "Panamera GTS",
-      "year": 2015,
-      "price": 65000,
-      "color": ["Black", "White", "Red"],
-      "condition": "used",
+      "brand": "Ford",
+      "model": "Fusion",
+      "year": 2023,
+      "price": 30000,
+      "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "condition": "brand new",
       "datasheet": {
-        "hp": 440,
-        "engine": "4.8L V8",
+        "hp": 245,
+        "engine": "2.0L I4",
         "fuel": "gasoline",
-        "consumption": "11.5 L/100 km",
-        "torque": "384 lb-ft",
-        "max_speed": "288 km/h",
-        "weight": "1920 kg",
-        "kilometers": 70000,
-        "features": ["Adaptive Air Suspension", "Bose Surround Sound", "Sport Chrono Package"],
-        "drivetrain": "AWD",
-        "transmission": "Automatic"
+        "consumption": "9.0 L/100 km",
+        "torque": "275 lb-ft",
+        "max_speed": "210 km/h",
+        "weight": "1605 kg",
+        "kilometers": 0,
+        "features": [
+          "Technology Package"
+        ],
+        "drivetrain": "FWD",
+        "transmission": "Manual"
       }
-    }      
+    }
   ]
   

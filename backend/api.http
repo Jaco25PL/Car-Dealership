@@ -20,6 +20,7 @@ content-type: application/json
     "model": "DBS",
     "year": 2017,
     "price": 150000,
+    "photos": ["https://static.vecteezy.com/system/resources/previews/004/639/704/original/automotive-car-icon-logo-isolated-on-white-background-vector.jpg"],
     "color": [
       "Black",
       "Gray"
